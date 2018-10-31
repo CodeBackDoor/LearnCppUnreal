@@ -1,46 +1,55 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<ItemGroup>
-		<None Include="..\..\LearnCppUnreal.uproject" />
-		<Filter Include="Source">
-			<UniqueIdentifier>{DC3694CA-ECA5-4DB9-9D57-EA963B3130A0}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\LearnCppUnreal.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<None Include="..\..\Source\LearnCppUnrealEditor.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<Filter Include="Config">
-			<UniqueIdentifier>{FDE36B3C-CBC4-4D8E-8316-2C66C8E35851}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Config\DefaultEditor.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultEngine.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultGame.ini">
-			<Filter>Config</Filter>
-		</None >
-		<Filter Include="Source\LearnCppUnreal">
-			<UniqueIdentifier>{73FE7DCA-AF49-4D66-AF14-17C92C6A3144}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\LearnCppUnreal\LearnCppUnreal.Build.cs">
-			<Filter>Source\LearnCppUnreal</Filter>
-		</None >
-		<ClCompile Include="..\..\Source\LearnCppUnreal\LearnCppUnreal.cpp">
-			<Filter>Source\LearnCppUnreal</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\LearnCppUnreal\LearnCppUnreal.h">
-			<Filter>Source\LearnCppUnreal</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\LearnCppUnreal\LearnCppUnrealGameModeBase.cpp">
-			<Filter>Source\LearnCppUnreal</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\LearnCppUnreal\LearnCppUnrealGameModeBase.h">
-			<Filter>Source\LearnCppUnreal</Filter>
-		</ClInclude >
-	</ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\LearnCppUnreal.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{DC3694CA-ECA5-4DB9-9D57-EA963B3130A0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\LearnCppUnreal.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\LearnCppUnrealEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FDE36B3C-CBC4-4D8E-8316-2C66C8E35851}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\LearnCppUnreal">
+      <UniqueIdentifier>{73FE7DCA-AF49-4D66-AF14-17C92C6A3144}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\LearnCppUnreal\LearnCppUnreal.Build.cs">
+      <Filter>Source\LearnCppUnreal</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\LearnCppUnreal\LearnCppUnreal.cpp">
+      <Filter>Source\LearnCppUnreal</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LearnCppUnreal\LearnCppUnreal.h">
+      <Filter>Source\LearnCppUnreal</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LearnCppUnreal\LearnCppUnrealGameModeBase.cpp">
+      <Filter>Source\LearnCppUnreal</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LearnCppUnreal\LearnCppUnrealGameModeBase.h">
+      <Filter>Source\LearnCppUnreal</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\LearnCppUnreal\Demo.h">
+      <Filter>Source\LearnCppUnreal</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\LearnCppUnreal\Demo.cpp">
+      <Filter>Source\LearnCppUnreal</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
