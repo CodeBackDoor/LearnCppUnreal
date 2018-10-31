@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\LearnCppUnreal.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{C96C26DD-5CCA-4BA7-BDF9-3FB9C4FD634B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\LearnCppUnreal.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\LearnCppUnrealEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{E9D9E016-E840-4FBD-93AC-755CC6DEFCE6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\LearnCppUnreal">
+      <UniqueIdentifier>{4DFA1BCE-2A10-400F-BA14-CB0EC860E935}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\LearnCppUnreal\LearnCppUnreal.Build.cs">
+      <Filter>Source\LearnCppUnreal</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\LearnCppUnreal\LearnCppUnreal.cpp">
+      <Filter>Source\LearnCppUnreal</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LearnCppUnreal\LearnCppUnreal.h">
+      <Filter>Source\LearnCppUnreal</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LearnCppUnreal\LearnCppUnrealGameModeBase.cpp">
+      <Filter>Source\LearnCppUnreal</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LearnCppUnreal\LearnCppUnrealGameModeBase.h">
+      <Filter>Source\LearnCppUnreal</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\LearnCppUnreal\Demo.h">
+      <Filter>Source\LearnCppUnreal</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\LearnCppUnreal\Demo.cpp">
+      <Filter>Source\LearnCppUnreal</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
