@@ -7,7 +7,9 @@ Introducción breve a la mayoría de las características del lenguaje, pero des
 
 Aunque la mayoría de mis publicaciones son temporales, a menudo son fragmentos de información aleatorios y no relacionados. El contenido aquí está destinado a ser más permanente, completo y guiado, como si estuvieras en una clase o leyendo un libro.
 
-1. Introducción
+[1. Introducción][2]
+
+[2. Tu primer script][3]
 
 # License: Project is released under MIT license Copyright (c) 2018 Antonio Mateo (MoonAntonio) and contributors.
 
@@ -16,3 +18,6 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+[2]: http://bit.ly/2NxeF6P
+[3]: http://bit.ly/2Q96dZr
